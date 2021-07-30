@@ -1,0 +1,59 @@
+body {
+    background: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 100%;
+    height: 100%;
+    padding: 0;
+    margin: 0;
+}
+.espaco {
+    display: block;
+    text-align: center;
+    margin-top: 100px;
+}
+h2 {
+    font-variant: normal;
+    font-size: 42px;
+    color: white;
+}
+#cidade {
+    padding-bottom: 10px;
+}
+
+table {
+    margin: 50px 50px 10px 35px;
+    border: solid 2px rgb(126, 0, 0) ;
+}
+
+td.morta {
+     background-color: rgb(174, 190, 190);
+     width: 20px;
+     height: 20px;
+ }
+ td.viva {
+     background-color:darkblue; 
+ } 
+#btniniciarparar {
+    background:rgb(126, 0, 0);
+    border-radius:10px;
+    border: solid 2px black ;
+    padding: 8px;
+    margin-right: 10px;
+    color: white;
+    width: 220px;
+    font-variant: normal;
+    font-size: 15px;
+}
+#btniniciarparar:hover {
+    background: darkblue;
+    transition: 1s;
+    cursor: pointer;
+}
+
+.botoes{
+    align-self: flex-end;
+    margin-bottom: 20px;
+}
+

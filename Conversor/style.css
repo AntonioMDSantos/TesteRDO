@@ -1,0 +1,76 @@
+body {
+    text-align: center;
+   background: linear-gradient(45deg, yellow,orange,red,purple);
+   background-size: 300% 500%;
+   font: normal 20pt Arial;
+   animation: colors 15s ease infinite;
+}
+@keyframes colors {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }    
+}
+
+header {
+    font: normal 10pt Arial;
+}
+
+section {
+    border-radius: 20px ;
+    width: 400px;
+    margin: auto;
+    box-shadow: 20px;
+    padding: 20px;
+    color: black;
+}
+
+div {
+    font: normal 10pt Arial;
+}
+.container{
+    background-color: rgba(128, 128, 128, 0.541);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: rgb(0, 0, 0) solid;
+    padding: 40px;
+}
+.sATR:hover {
+    color: white;
+    background-color: teal;
+    cursor: pointer;
+}
+.sRTA:hover {
+    color: white;
+    background-color: rgb(26, 128, 0);
+    cursor: pointer;
+}
+.sRTA, .sATR{
+    margin-top: 10px;
+}
+h1{
+    color: cyan;
+}
+h2 {
+    color: rgb(0, 2, 128);
+}
+span {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 20px;
+    font-size: 20px;
+    font-style: oblique;
+}
+.resultRom{
+    font-size: 20px;
+}
+.resultAra{
+    font-size: 20px;
+}
